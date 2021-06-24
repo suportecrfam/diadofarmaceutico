@@ -12,6 +12,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   height: 100%;
   margin: 0;
@@ -35,12 +36,12 @@ body {
 }
 
 h1 {
-  margin: 0;
+  margin: 0.7cm 0;
   color: #FFFFFF;
 }
 
 p {
   margin: 1cm 0;
-
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
 }
