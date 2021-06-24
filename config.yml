@@ -1,11 +1,11 @@
 event:
-  name: "Heróis da Farmácia teste"
+  name: "Heróis da Farmácia"
   url: "http://crfam.org.br/"
   date: "10 e 11 de Junho de 2021"
   duration: "8 Horas"
 site:
   lang: "pt-br"
-  title: "Heróis da Farmácia teste"
+  title: "Heróis da Farmácia"
   logo: "static/images/logo.png"
   index:
     message: "Informe o número do seu CRF"
