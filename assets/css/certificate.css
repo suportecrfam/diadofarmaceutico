@@ -38,10 +38,11 @@ body {
 
 h1 {
   color: #FFFFFF;
+  font-size: 22px;
 }
 
 p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   border: 1px solid #000;
 }
