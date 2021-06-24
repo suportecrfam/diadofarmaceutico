@@ -1,0 +1,7 @@
+# General
+node_modules/
+dados/
+
+# CSV
+*.csv
+!csv/sample.csv

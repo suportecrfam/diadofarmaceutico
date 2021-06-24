@@ -1,0 +1,32 @@
+event:
+  name: "Heróis da Farmácia"
+  url: "http://crfam.org.br/"
+  date: "10 e 11 de Junho de 2021"
+  duration: "8 Horas"
+site:
+  lang: "pt-br"
+  title: "Heróis da Farmácia"
+  logo: "static/images/logo.png"
+  index:
+    message: "Informe o número do seu CRF"
+    emailPlaceholder: "Nº de inscrição CRF"
+    inputLabel: "CRF"
+    submit: "Gerar"
+certificate:
+  logo: "static/images/logo.png"
+  background: "static/images/background.png"
+  textLine1: "Por atuar com coragem, bravura e profissionalismo, em defesa da saúde e da vida da população amazonense, na linha de frente de combate a pandemia do novo coronavírus (COVID-19)."
+  textLine2: "O CONSELHO REGIONAL DE FARMÁCIA DO ESTADO DO AMAZONAS (CRF-AM), tem a honra de conceder o certificado Heróis da Farmácia, %attendee_type%:"
+routes:
+  certificate: certificado
+errors:
+  error: "<strong>Error:</strong> %message%"
+  missingEmail: "CRF não encontrado!"
+  invalidEmail: "CRF inválido!"
+  emailNoExists: "CRF inválido!"
+  notAttended: "You did not attended to this!"
+  csvError: "Erro na leitura do arquivo CSV!"
+  csrfError: "Cheatin' huh?"
+  error404: "404: Página não encontrada"
+  error500: "500: Erro no servidor"
+csv: csv/sample.csv
