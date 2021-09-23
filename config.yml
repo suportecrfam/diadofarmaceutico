@@ -1,11 +1,11 @@
 event:
-  name: "Heróis da Farmácia"
-  url: "http://crfam.org.br/"
+  name: "Dia Internacional do Farmacêutico"
+  url: "https://www.google.com/search?q=dia+internacional+do+farmac%C3%AAutico&hl=pt-BR&sxsrf=AOaemvKkyzFF-Geq_636TqOCMO4VYbuiaw%3A1632427457402&source=hp&ei=wd1MYeDWFefc1sQP0Zih2Ag&iflsig=ALs-wAMAAAAAYUzr0d5eYBcS_FvQwqOK06xokN_xFHwX&oq=dia+inte&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIFCAAQgAQyCAgAELEDEIMBMggIABCxAxCDATILCAAQgAQQsQMQgwEyCAgAELEDEIMBMggIABCxAxCDATIFCAAQgAQyBQgAEIAEMgUIABCABDoECAAQQzoLCC4QgAQQxwEQowJQtAhYyw9gkRZoAHAAeACAAe0BiAHtC5IBBTAuNy4xmAEAoAEB&sclient=gws-wiz"
   date: "10 e 11 de Junho de 2021"
   duration: "8 Horas"
 site:
   lang: "pt-br"
-  title: "Heróis da Farmácia"
+  title: "Honra ao Mérito CRF/AM"
   logo: "static/images/logo.png"
   index:
     message: "Informe o número do seu CRF"
@@ -15,8 +15,11 @@ site:
 certificate:
   logo: "static/images/logo.png"
   background: "static/images/background.png"
-  textLine1: "Por atuar com coragem, bravura e profissionalismo, em defesa da saúde e da vida da população amazonense, na linha de frente de combate a pandemia do novo coronavírus (COVID-19)."
-  textLine2: "O CONSELHO REGIONAL DE FARMÁCIA DO ESTADO DO AMAZONAS (CRF-AM), tem a honra de conceder o certificado Heróis da Farmácia, %attendee_type%:"
+  textLine1: "Você é um herói da Farmácia!"
+  textLine2: "Se o Amazonas está superando a Covid- 19, o papel do farmacêutico é fundamental.
+              E nós, do Conselho Regional de Farmácia do Amazonas, reconhecemos por meio deste certificado
+              a importância do seu trabalho e da sua dedicação. Parabéns por representar de maneira tão 
+              honrada a profissão farmacêutica."  
 routes:
   certificate: certificado
 errors:
