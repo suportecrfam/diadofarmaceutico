@@ -5,3 +5,7 @@ dados/
 # CSV
 *.csv
 !csv/sample.csv
+
+#XLSX
+*.xlsx
+
