@@ -15,9 +15,8 @@ site:
 certificate:
   logo: "static/images/logo.png"
   background: "static/images/background.png"
-  textLine1: "Você é um herói da Farmácia!"
-  textLine2: "Se o Amazonas está superando a Covid- 19, o papel do farmacêutico é fundamental.
-              E nós, do Conselho Regional de Farmácia do Amazonas, reconhecemos por meio deste certificado
+  textLine1: "Você é um Herói da Farmácia!"
+  textLine2: "O Conselho Regional de Farmácia do Amazonas, reconhece por meio deste certificado
               a importância do seu trabalho e da sua dedicação. Parabéns por representar de maneira tão 
               honrada a profissão farmacêutica."  
 routes:
