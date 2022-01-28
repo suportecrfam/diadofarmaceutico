@@ -30,15 +30,15 @@ body {
   left: 50%;
   min-width: 85%;
   position: fixed;
-  top: 47.5%;
+  top: 60.2%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 
 }
 
 h1 {
-  color: #FFFFFF;
-  font-size: 26px;
+  color: #e39801;
+  font-size: 42px;
 }
 
 

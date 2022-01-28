@@ -1,20 +1,21 @@
 event:
-  name: "Dia Internacional do Farmacêutico"
-  url: "https://www.google.com/search?q=dia+internacional+do+farmac%C3%AAutico&hl=pt-BR&sxsrf=AOaemvKkyzFF-Geq_636TqOCMO4VYbuiaw%3A1632427457402&source=hp&ei=wd1MYeDWFefc1sQP0Zih2Ag&iflsig=ALs-wAMAAAAAYUzr0d5eYBcS_FvQwqOK06xokN_xFHwX&oq=dia+inte&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIFCAAQgAQyCAgAELEDEIMBMggIABCxAxCDATILCAAQgAQQsQMQgwEyCAgAELEDEIMBMggIABCxAxCDATIFCAAQgAQyBQgAEIAEMgUIABCABDoECAAQQzoLCC4QgAQQxwEQowJQtAhYyw9gkRZoAHAAeACAAe0BiAHtC5IBBTAuNy4xmAEAoAEB&sclient=gws-wiz"
-  date: "25 de Setembro de 2021"
-  duration: "24 Horas"
+  name: "Simpósio Semana do Farmacêutico"
+  url: "https://crfam.org.br"
+  date: "17 a 20 de Janeiro 2022"
+  duration: "4 Horas"
 site:
   lang: "pt-br"
-  title: "Honra ao Mérito CRF/AM"
+  title: "Simpósio Semana do Farmacêutico"
   logo: "static/images/logo.png"
   index:
-    message: "Informe o número do seu CRF"
-    emailPlaceholder: "Nº de inscrição CRF"
-    inputLabel: "CRF"
+    message: "Informe o número do seu CPF"
+    emailPlaceholder: "E-mail"
+    cpfPlaceholder: "Digite o CPF. Somente números."
+    inputLabel: "CPF"
     submit: "Gerar"
 certificate:
   logo: "static/images/logo.png"
-  background: "static/images/background.png"
+  background: "static/images/background.jpeg"
   textLine1: "Você é um herói da Farmácia!"
   textLine2: "Se o Amazonas está superando a Covid- 19, o papel do farmacêutico é fundamental. E nós, do Conselho Regional de Farmácia do Amazonas, neste Dia Internacional do Farmacêutico, reconhecemos, por meio deste certificado, a importância do seu trabalho e da sua dedicação. Parabéns por representar de maneira tão honrada a profissão farmacêutica."
   
@@ -22,9 +23,9 @@ routes:
   certificate: certificado
 errors:
   error: "<strong>Error:</strong> %message%"
-  missingEmail: "CRF não encontrado!"
-  invalidEmail: "CRF inválido!"
-  emailNoExists: "CRF inválido!"
+  missingEmail: "CPF não encontrado!"
+  invalidEmail: "CPF não encontrado!"
+  emailNoExists: "CPF não encontrado!"
   notAttended: "You did not attended to this!"
   csvError: "Erro na leitura do arquivo CSV!"
   csrfError: "Cheatin' huh?"

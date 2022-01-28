@@ -102,10 +102,10 @@ app.post('/' + config.routes.certificate, parseForm, csrfProtection, function (r
 
       // Style certificate args
       args.attendee.data = args.certificate.textLine2
-        .replace('%event_name%', '<strong>' + args.event.name + '</strong>')
-        .replace('%event_date%', args.event.date)
-        .replace('%attendee_type%', '<strong>' + args.attendee.type.toLowerCase() + '</strong>')
-        .replace('%event_duration%', '<strong>' + args.event.duration + '</strong>');
+       // .replace('%event_name%', '<strong>' + args.event.name + '</strong>')
+       // .replace('%event_date%', args.event.date)
+        // .replace('%attendee_type%', '<strong>' + args.attendee.type.toLowerCase() + '</strong>')
+       // .replace('%event_duration%', '<strong>' + args.event.duration + '</strong>');
 
       // Render PDF
       res.pdfFromHTML({
